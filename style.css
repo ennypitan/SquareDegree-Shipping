@@ -219,12 +219,7 @@ li:active    {
     background: whitesmoke;
     overflow-y: scroll;
     overflow-x: hidden;
-    background-image: 
-    linear-gradient(to left, rgba(127, 128, 129, 0.52), rgba(61, 60, 61, 0.73)),
-    url(images/Asset6.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat;
+   
 
     
 }
