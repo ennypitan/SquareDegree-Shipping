@@ -115,6 +115,7 @@ li i {
 }
 .menu_bar ul li:hover,
 .menu_bar ul li.active {
+  padding-bottom: 0.7rem;
   border-bottom: 2px white solid;
 }
 li:active {
@@ -731,6 +732,7 @@ footer {
 .serv-text {
   font-size: 3em;
   line-height: 1.1;
+  font-family: "proxima_nova_rgbold";
   color: white;
 }
 .service-content {
@@ -775,6 +777,7 @@ footer {
   border-bottom: 1px solid #dddddd;
 }
 .lower-content {
+  padding: 0.5rem 2rem;
   height: 40%;
   margin-top: 1rem;
   background-color: #dddddd;
@@ -821,7 +824,6 @@ footer {
 .image-container img {
   width: 100%;
   height: 400px;
-  border: 2px solid #00bb66;
   object-fit: cover;
   cursor: pointer;
 
@@ -835,4 +837,136 @@ footer {
   line-height: 1.1;
   font-weight: 500;
   color: #00bb66;
+}
+.lower-content-text {
+  font-size: 24px;
+  font-family: "proxima_nova_rgbold";
+  color: #00bb66;
+}
+.lower-content-text1 {
+  font-size: 16px;
+  padding-bottom: 0.8rem;
+}
+
+/* Featured Section */
+.why-choose .featured-container {
+  background-color: white;
+  border: none;
+}
+.featured-title {
+  text-align: center;
+  font-family: "proxima_nova_rgbold";
+  font-size: 2rem;
+  color: #00bb66;
+  margin: 1rem 0rem;
+}
+.featured-intro {
+  text-align: center;
+  font-family: "proxima_nova_rgregular";
+  font-size: 1rem;
+  color: #00bb66;
+  margin-bottom: 2rem;
+}
+
+.why-choose .featured-box {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+.why-choose .featured-box .text-box {
+  text-align: center;
+  color: #00bb66;
+  border: none;
+}
+.why-choose .featured-box {
+  text-align: center;
+  padding: 2rem 1rem;
+  border: none;
+}
+/* End of Featured Section */
+
+/* -------------ABOUT PAGE SECTION--------------- */
+.about-page-content {
+  margin: 5rem 0;
+  scroll-behavior: smooth;
+}
+.about-page-content .upper-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
+  height: 40%;
+  background-color: #00bb66;
+}
+.upper-content-text {
+  height: 30%;
+  font-size: 1.5em;
+  color: white;
+}
+.about-page-content .upper-content-text:nth-child(2) {
+  border-top: 1px solid #dddddd;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dddddd;
+}
+.about-page-content .lower-content {
+  padding: 0.5rem 2rem;
+  height: 57%;
+  margin-top: 1rem;
+  background-color: #dddddd;
+}
+.about-page-content .image-container {
+  width: 100%;
+}
+.about-page-content a {
+  color: white;
+  scroll-behavior: smooth;
+  transition: 10s ease-in;
+}
+#overview {
+  scroll-behavior: smooth;
+  transition: 10s ease-in;
+}
+.about-page-content .row {
+  flex-direction: column;
+}
+.mission {
+  display: flex;
+}
+.mission-title,
+.vision-title,
+.m-heading-text,
+.value-title {
+  font-family: "proxima_nova_rgbold";
+  font-size: 2rem;
+  color: #00bb66;
+  margin-bottom: 1rem;
+}
+.mission-body,
+.vision-body {
+  font-family: "proxima_nova_rgregular";
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 0.6rem 0.5rem;
+  border-left: 0.3rem solid rgb(128, 128, 128, 0.2);
+}
+.value-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "proxima_nova_rgregular";
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.value-text li {
+  padding-top: 0.5rem;
+  list-style-type: disc;
+  color: #00bb66;
+}
+.about-page-content .info-btn {
+  background-color: #00bb66;
+  color: white;
+}
+.about-page-content .lower-content-text1 {
+  font-family: "proxima_nova_rgregular";
+  font-weight: normal;
+  font-size: 1.2rem;
 }

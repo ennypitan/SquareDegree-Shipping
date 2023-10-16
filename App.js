@@ -1,6 +1,10 @@
 // AOS
 AOS.init({
-  duration: 1200,
+  easing: "ease",
+  duration: 1000,
+  offset: 10,
+  once: true,
+  mirror: true,
 });
 
 //hamburger
