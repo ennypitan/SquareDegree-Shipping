@@ -792,6 +792,8 @@ footer {
   line-height: 1.5;
   color: black;
   margin: 1em 0;
+  animation-name: slideIn;
+  animation-duration: 7s;
 }
 .gallery {
   display: flex;
@@ -969,4 +971,27 @@ footer {
   font-family: "proxima_nova_rgregular";
   font-weight: normal;
   font-size: 1.2rem;
+}
+/* -------------Contact Us Page------------ */
+.contact-page-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.form-card {
+  width: 55%;
+  margin: 2rem;
+  border: 1px solid red;
+}
+/* -------------End of Contac Us Page------------ */
+
+/* CSS Animations */
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
