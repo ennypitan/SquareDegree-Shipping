@@ -976,14 +976,47 @@ footer {
 .contact-page-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 80%;
   margin: auto;
 }
 .form-card {
   width: 55%;
   margin: 2rem;
-  border: 1px solid red;
 }
+.about-page input::placeholder,
+.about-page textarea::placeholder {
+  text-transform: uppercase;
+}
+.about-page .fullname,
+.about-page .phone-no {
+  width: 48%;
+  border: 1px solid rgb(128, 128, 128, 0.4);
+  outline: none;
+  margin: 1rem 0;
+}
+.about-page .fullname {
+  margin-right: 0.7rem;
+}
+.about-page .email {
+  width: 99%;
+  border: 1px solid rgb(128, 128, 128, 0.4);
+  outline: none;
+}
+#areatext {
+  width: 99%;
+  height: 100px;
+  border: 1px solid rgb(128, 128, 128, 0.4);
+  outline: none;
+}
+.about-page input[type="submit"] {
+  background: #00bb66;
+  transform: translateX(60%);
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0.4rem;
+}
+
 /* -------------End of Contac Us Page------------ */
 
 /* CSS Animations */
