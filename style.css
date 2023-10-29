@@ -1016,8 +1016,38 @@ footer {
   color: white;
   margin-top: 0.4rem;
 }
-
-/* -------------End of Contac Us Page------------ */
+.address-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.address-card {
+  padding: 0.5rem 0;
+  width: 45%;
+  gap: 2rem;
+  font-family: "proxima_nova_rgregular";
+}
+.address-title {
+  font-family: "proxima_nova_rgbold";
+  font-size: 2.5rem;
+  color: #3e3e3e;
+}
+.title-head,
+.title-head {
+  font-family: "proxima_nova_rgbold";
+  color: #3e3e3e;
+  font-size: 1.5rem;
+}
+.address-text {
+  font-size: 1rem;
+}
+.first,
+.second,
+.third {
+  padding: 0.5rem 0;
+}
+/* -------------End of Contact Us Page------------ */
 
 /* CSS Animations */
 @keyframes slideIn {

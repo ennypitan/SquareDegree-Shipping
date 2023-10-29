@@ -130,6 +130,161 @@
     width: 70%;
     height: 400px;
   }
+  /* ---------------Services Section------------------ */
+
+  .landing-card {
+    height: 10vh;
+    background-position: center;
+  }
+  .serv-tag {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "proxima_nova_rgregular";
+    color: white;
+  }
+  .serv-text {
+    font-size: 3em;
+    line-height: 1.1;
+    font-family: "proxima_nova_rgbold";
+    color: white;
+  }
+  .service-content {
+    margin: 5rem 0;
+  }
+
+  .service-container {
+    display: flex;
+    width: 90%;
+
+    margin: auto;
+    gap: 2rem;
+  }
+  .service-side {
+    display: none;
+  }
+
+  .service-main {
+    width: 95%;
+    margin: auto;
+  }
+  .upper-text,
+  .bottom-text {
+    text-align: justify;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 5% auto;
+    display: block;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .image-container {
+    width: 95%;
+    margin: auto;
+  }
+  .image-container img {
+    height: 400px;
+    margin-bottom: 1rem;
+  }
+  .image-container img:hover {
+    opacity: 0.8;
+  }
+  /* -------------ABOUT PAGE SECTION--------------- */
+  .about-page-content {
+    margin: 5rem 0;
+    scroll-behavior: smooth;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mission-title,
+  .vision-title,
+  .m-heading-text,
+  .value-title {
+    text-align: center;
+  }
+
+  /* -------------ABOUT PAGE SECTION--------------- */
+  .about-page-content {
+    margin: 5rem 0;
+    scroll-behavior: smooth;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mission-title,
+  .vision-title,
+  .m-heading-text,
+  .value-title {
+    text-align: center;
+  }
+
+  /* -------------Contact Us Page------------ */
+  .contact-page-container {
+    width: 95%;
+  }
+  .form-card {
+    width: 70%;
+    margin: 2rem;
+  }
+
+  .about-page .fullname,
+  .about-page .phone-no {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .about-page .fullname {
+    margin-right: 0.7rem;
+  }
+  .about-page .email {
+    width: 99%;
+    border: 1px solid rgb(128, 128, 128, 0.4);
+    outline: none;
+  }
+  .about-page input[type="submit"] {
+    transform: translateX(0%);
+  }
+  .address-container {
+    flex-direction: row;
+    width: 80%;
+  }
+  .address-card {
+    width: 95%;
+    gap: 1rem;
+  }
+  .address-title {
+    font-size: 1.5rem;
+  }
+  .title-head,
+  .title-head {
+    font-size: 1rem;
+  }
+  .address-text {
+    font-size: 1rem;
+  }
+
+  /* -------------End of Contact Us Page------------ */
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
@@ -262,4 +417,141 @@
     width: 70%;
     height: 400px;
   }
+
+  /* ---------------Services Section------------------ */
+
+  .landing-card {
+    height: 10vh;
+    background-position: center;
+  }
+  .serv-tag {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "proxima_nova_rgregular";
+    color: white;
+  }
+  .serv-text {
+    font-size: 3em;
+    line-height: 1.1;
+    font-family: "proxima_nova_rgbold";
+    color: white;
+  }
+  .service-content {
+    margin: 5rem 0;
+  }
+
+  .service-container {
+    display: flex;
+    width: 90%;
+
+    margin: auto;
+    gap: 2rem;
+  }
+  .service-side {
+    display: none;
+  }
+
+  .service-main {
+    width: 95%;
+    margin: auto;
+  }
+  .upper-text,
+  .bottom-text {
+    text-align: justify;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 5% auto;
+    display: block;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .image-container {
+    width: 95%;
+    margin: auto;
+  }
+  .image-container img {
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+  .image-container img:hover {
+    opacity: 0.8;
+  }
+  /* -------------ABOUT PAGE SECTION--------------- */
+  .about-page-content {
+    margin: 5rem 0;
+    scroll-behavior: smooth;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mission-title,
+  .vision-title,
+  .m-heading-text,
+  .value-title {
+    text-align: center;
+  }
+
+  /* -------------Contact Us Page------------ */
+  .contact-page-container {
+    width: 95%;
+  }
+  .form-card {
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .about-page .fullname,
+  .about-page .phone-no {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .about-page .fullname {
+    margin-right: 0.7rem;
+  }
+  .about-page .email {
+    width: 99%;
+    border: 1px solid rgb(128, 128, 128, 0.4);
+    outline: none;
+  }
+  .about-page input[type="submit"] {
+    transform: translateX(0%);
+  }
+  .address-container {
+    flex-direction: column;
+  }
+  .address-card {
+    width: 95%;
+    gap: 1rem;
+  }
+  .address-title {
+    font-size: 1.5rem;
+  }
+  .title-head,
+  .title-head {
+    font-size: 1rem;
+  }
+  .address-text {
+    font-size: 1rem;
+  }
+
+  /* -------------End of Contact Us Page------------ */
 }
