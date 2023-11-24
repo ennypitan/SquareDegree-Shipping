@@ -834,6 +834,7 @@ footer {
 .image-container img:hover {
   opacity: 0.8;
 }
+
 .main-title {
   font-size: 3em;
   line-height: 1.1;
@@ -1003,6 +1004,7 @@ footer {
   border: 1px solid rgb(128, 128, 128, 0.4);
   outline: none;
 }
+
 #areatext {
   width: 99%;
   height: 100px;
