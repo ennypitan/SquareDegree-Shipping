@@ -228,8 +228,8 @@ li:active {
 /* ******************End of responsive Section******************************* */
 .menu-icon {
   position: relative;
-  width: 12em;
-  height: 7em;
+  width: 12.1em;
+  height: 7.1em;
   left: 0;
   top: 0;
   float: left;
@@ -261,11 +261,11 @@ li:active {
   height: 60vh;
 }
 .left-landing {
-  margin-top: 12rem;
+  margin-top: 12.1rem;
   display: flex;
   flex-direction: column;
   place-self: center center;
-  padding: 3rem 0rem;
+  padding: 3.1rem 0rem;
   font-family: "proxima_nova_rgbold";
   color: white;
 }
@@ -275,7 +275,7 @@ li:active {
   font-family: "proxima_nova_rgregular";
 }
 .banner-title {
-  font-size: 5em;
+  font-size: 5.1em;
   line-height: 1.1;
 }
 .banner-excerpt {
@@ -362,7 +362,7 @@ li:active {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #f13525;
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
 }
 .page-title {
   font-family: "proxima_nova_rgbold";
