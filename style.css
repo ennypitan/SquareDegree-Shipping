@@ -153,7 +153,7 @@ li:active {
   position: relative;
   width: 3.5rem;
   height: 3.5rem;
-  padding: 1rem;
+  padding: 1.1rem;
   top: 0;
   left: 0;
 
@@ -165,7 +165,7 @@ li:active {
 .bottom-bar {
   position: absolute;
   left: 1rem;
-  width: 3rem;
+  width: 3.1rem;
   height: 0.2em;
   background: #0b1a1f;
   border-radius: 2px;
@@ -181,7 +181,7 @@ li:active {
   width: 2rem;
 }
 .middle-bar:hover {
-  left: 2rem;
+  left: 2.1rem;
   background: #f13525;
 }
 .bottom-bar {
