@@ -398,9 +398,9 @@ li:active {
 .services-title {
   text-align: center;
   font-family: "proxima_nova_rgbold";
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: white;
-  padding: 1rem 0rem;
+  padding: 1.1rem 0rem;
 }
 .services-intro {
   text-align: center;
@@ -410,7 +410,7 @@ li:active {
   margin-bottom: 2rem;
 }
 .icon-box i {
-  font-size: 3rem;
+  font-size: 3.1rem;
   margin-bottom: 1rem;
   color: #00bb66;
 }
@@ -429,18 +429,18 @@ li:active {
 .box-title {
   font-family: "proxima_nova_rgbold";
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   color: #00bb66;
 }
 
 .text-box {
   font-size: 1.2rem;
   line-height: 1.2;
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
 }
 .box-btn {
   color: #00bb66;
-  padding: 1em 2em;
+  padding: 1.1em 2.1em;
   cursor: pointer;
   font-size: 1em;
   border-radius: 4px;
@@ -467,7 +467,7 @@ li:active {
   font-family: "proxima_nova_rgbold";
   font-size: 2rem;
   color: #00bb66;
-  margin: 1rem 0rem;
+  margin: 1.1rem 0rem;
 }
 .featured-intro {
   text-align: center;
