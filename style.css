@@ -479,7 +479,7 @@ li:active {
 .featured-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 3.1rem;
   width: 90%;
   margin: auto;
 }
@@ -512,13 +512,13 @@ li:active {
   transform: translateY(-5rem);
 }
 .form-side {
-  padding: 2rem;
+  padding: 2.1rem;
   background: white;
 }
 input,
 select {
   width: 240px;
-  padding: 1rem 1rem;
+  padding: 1.1rem 1.1rem;
   border-radius: 4px;
   border: 1px solid #dddddd;
 }
@@ -544,7 +544,7 @@ input[type="email"] {
 .form-row {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 1.1rem;
 }
 .form-side h3 {
   font-size: 1.2rem;
