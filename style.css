@@ -261,11 +261,11 @@ li:active {
   height: 60vh;
 }
 .left-landing {
-  margin-top: 12.1rem;
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   place-self: center center;
-  padding: 3.1rem 0rem;
+  padding: 3rem 0rem;
   font-family: "proxima_nova_rgbold";
   color: white;
 }
@@ -275,7 +275,7 @@ li:active {
   font-family: "proxima_nova_rgregular";
 }
 .banner-title {
-  font-size: 5.1em;
+  font-size: 5em;
   line-height: 1.1;
 }
 .banner-excerpt {
@@ -284,7 +284,7 @@ li:active {
   font-family: "proxima_nova_rgregular";
 }
 .banner-btn {
-  margin-top: 2rem;
+  margin-top: 2.1rem;
 }
 .about-btn {
   padding: 1.5em 2em;
