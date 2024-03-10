@@ -429,18 +429,18 @@ li:active {
 .box-title {
   font-family: "proxima_nova_rgbold";
   font-size: 1.2rem;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1rem;
   color: #00bb66;
 }
 
 .text-box {
   font-size: 1.2rem;
   line-height: 1.2;
-  margin-bottom: 2.1rem;
+  margin-bottom: 2rem;
 }
 .box-btn {
   color: #00bb66;
-  padding: 1.1em 2.1em;
+  padding: 1em 2em;
   cursor: pointer;
   font-size: 1em;
   border-radius: 4px;
@@ -474,12 +474,12 @@ li:active {
   font-family: "proxima_nova_rgregular";
   font-size: 1rem;
   color: #00bb66;
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
 }
 .featured-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3.1rem;
+  gap: 3rem;
   width: 90%;
   margin: auto;
 }
@@ -512,7 +512,7 @@ li:active {
   transform: translateY(-5rem);
 }
 .form-side {
-  padding: 2.1rem;
+  padding: 2rem;
   background: white;
 }
 input,
@@ -607,7 +607,7 @@ input[type="email"] {
 .gallery-title {
   text-align: center;
   font-family: "proxima_nova_rgbold";
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: white;
   padding: 1rem 0rem;
 }
